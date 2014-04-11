@@ -316,10 +316,10 @@ hr {
     background: url('../elent_p/s1.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: url('../elent_p/s2.jpg');
+    background: url('../elent_p/s2.jpeg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: url('../elent_p/l1.jpg');
+    background: url('../elent_p/l1.jpeg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-16 .tile-inner {
     background: url('../elent_p/l2.jpg'); 
@@ -331,7 +331,7 @@ hr {
     background: url('../elent_p/b2.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-128 .tile-inner {
-    background: url('../elent_p/t1.jpg');
+    background: url('../elent_p/t1.jpeg');
     box-shadow: 0 0 10px 5px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
@@ -348,7 +348,7 @@ hr {
     background: url('../elent_p/ty1.jpg');}
   .tile.tile-1024 .tile-inner {
 
-    background: url('../elent_p/ty2.jpg'); 
+    background: url('../elent_p/ty2.jpeg'); 
     box-shadow: 0 0 10px 5px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
