@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #800000;
-  color: #800080;
+  color: #ff6347;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -311,7 +311,7 @@ hr {
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 30px; }
   .tile.tile-2 .tile-inner {
     background: url('../elent_p/s1.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -319,34 +319,51 @@ hr {
     background: url('../elent_p/s2.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: url('../elent_p/l1.jpg');}
+    background: url('../elent_p/l1.jpg');
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: url('../elent_p/l2.jpg'); }
+    background: url('../elent_p/l2.jpg'); 
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: url('../elent_p/b1.jpg'); }
+    background: url('../elent_p/b1.jpg'); 
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: url('../elent_p/b2.jpg'); }
+    background: url('../elent_p/b2.jpg');
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: url('../elent_p/t1.jpg'); }
+    background: url('../elent_p/t1.jpg');
+    box-shadow: 0 0 10px 5px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-128 .tile-inner {
+        font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: url('../elent_p/t2.jpg'); }
+    background: url('../elent_p/t2.jpg');
+    box-shadow: 0 0 10px 5px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-128 .tile-inner {
+        font-size: 25px; }  }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
     background: url('../elent_p/ty1.jpg');}
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: url('../elent_p/ty2.jpg'); }
+
+    background: url('../elent_p/ty2.jpg'); 
+    box-shadow: 0 0 10px 5px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-128 .tile-inner {
+        font-size: 25px; }  }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: url('../elent_p/throne.jpg'); }
+
+    background: url('../elent_p/throne.jpg');
+    box-shadow: 0 0 10px 5px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-128 .tile-inner {
+        font-size: 25px; }   }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
+
     background: #3c3a32;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
